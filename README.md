@@ -32,4 +32,5 @@ Navigate to http://localhost:8080/#/. Here you can find the top channels by clic
 
 The search will rank the channels and store them in an external Airtable database. Look for your entry in the first table. On the second table, you will find all the channels and corresponding statistics for each channel that were used to rank the channels. 
 
-
+Tech stack used: Vue.js, Python, HTML, CSS
+Technologies used: Flask, Git
