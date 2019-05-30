@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-10">
-        <h1>IVI Top Channels</h1>
+        <h1>Youtuber</h1>
         <hr><br><br>
         <button type="button" class="btn btn-success btn-sm" v-b-modal.book-modal>Add Keyword  </button>
         <button type="button" class="btn btn-warning btn-sm" v-b-modal.book-update-modal>Update</button>
