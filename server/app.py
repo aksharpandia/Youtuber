@@ -224,10 +224,6 @@ def update():
 	return 'Updated '
 
 
-@app.route('/', methods=['GET'])
-def retrieve():
-	return "HELLO!"
-
 
 if __name__ == '__main__':
     app.run()
