@@ -13,21 +13,19 @@ Youtuber utilizes the YouTube Data API to retrieve the top search results for th
 ## How to use?
 
 To begin, fork the repo. You will then need to launch both the client and server side. If you do not already have Flask, do the following:
-
-$ pip install Flask==1.0.2 Flask-Cors==3.0.7
-
-Next, open command prompt, and cd into 'server'. In 'server', run the following:
-
-$ set FLASK_APP=app.py 
-
-$ flask run
-
+```
+pip install Flask==1.0.2 Flask-Cors==3.0.7
+```
+Next, open command prompt, and cd into 'server' from the path where the project is forked. In 'server', run the following:
+```
+set FLASK_APP=app.py 
+flask run
+```
 To launch client-side: 
-
-$ cd client
-
-$ npm run dev
-
+```
+cd client
+npm run dev
+```
 Navigate to http://localhost:8080/#/. Here you can find the top channels by clicking on the 'Add Keyword' button and entering the affinity for which you want the top channels and the number of search results you want to iterate through (higher == more channels analyzed). Run the search. 
 
 The search will rank the channels and store them in an external Airtable database. Look for your entry in the first table. On the second table, you will find all the channels and corresponding statistics for each channel that were used to rank the channels. 
