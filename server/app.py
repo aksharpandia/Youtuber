@@ -16,9 +16,9 @@ API_KEY = "Hello, WORLD!"
 
 # coding: utf8
 BASE_URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=" 
-DEV_KEY = "AIzaSyB1c3QZC0GHRgfBVUYssUHMb9hB8hpinVo"
+DEV_KEY = "***"
 
-base_key = 'app0XNaBgemw6bER3'
+base_key = '***'
 TopChannelsTable = "TopChannels"
 VideoStatsTable = "ChannelStats"
 
